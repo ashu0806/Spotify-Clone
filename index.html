@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Clone</title>
+    <link rel = "icon" href = "../images/logo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4b2e6d7c00.js" crossorigin="anonymous"></script>
+   
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li class="logo"><div class="logo-container"><img src="../images/logo.png" alt="Spotify">Spotify</li></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        <div class="login">
+            <button class="btn">LOG IN</button>
+        </div>
+    </ul>
+    </nav>
+    <section class="music">
+        <div class="songs-container">
+            <div class="songs">
+                <h2>Listen to your favorite songs</h2>
+                <div class="song">
+                    <img src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="0"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+                <div class="song">
+                    <img  src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="1"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+                <div class="song">
+                    <img  src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="2"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+                <div class="song">
+                    <img  src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="3"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+                <div class="song">
+                    <img   src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="4"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+                <div class="song">
+                    <img  src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="5"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+                <div class="song">
+                    <img  src="" alt="">
+                    <span class="song-name">Excuses - AP Dhillon</span>
+                    <span class="timestamp">03:21<i id="6"class="fa songItemPlay fa-play-circle-o"></i></span>
+                </div>
+            </div>
+            <div class="banner">
+                <div class="image">
+                    <img id="song-poster" src="../covers/1.jpg" alt="">
+                    <div class="present-song">
+                        <span id="particular-song-name">I M An Albatraoz</span>
+                    </div>
+                    <div class="gif">
+                        <img id="gif" src="../images/music.gif" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bottom">
+            <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+            <div class="player"><i id="previous" class="fa fa-step-backward"></i>
+            <i class="fa fa-play-circle-o" id="masterPlay"></i>
+            <i id="next" class="fa fa-step-forward"></i></div>
+        </div>
+    </section>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
